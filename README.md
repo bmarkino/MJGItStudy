@@ -94,7 +94,15 @@ git log  --graph --pretty=format:"%cn %cd %s"
 
 #### 五、变基master
 
-master修改
+````shell
+git checkout dev
+git rebase master
+
+git checkout master
+git merge dev
+````
+
+
 
 
 

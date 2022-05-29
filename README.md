@@ -79,3 +79,4 @@ git stage README.md
 git remote -v
 ````
 
+#### 四、冲突文件

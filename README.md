@@ -22,6 +22,14 @@ git status -s
 ####  rm
 
 ````shell
+#删除缓存
 git rm --cached README.md
+````
+
+#### mv
+
+````shell
+#文件重命名
+git mv README.MD README.md
 ````
 

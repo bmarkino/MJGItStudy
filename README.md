@@ -52,14 +52,30 @@ git log -S "代码更新"
 
 #### reset－stage
 
+````shell
+git stage README.md
+git reset HEAD README.md
+#删除所有本地的更改，非必要不用,两者类似
+git reset --hard
+git checkout --
 ````
-````
-
-
 
 #### diff查看当前修改内容
 
 ````shell
 git diff
+````
+
+#### restore-stage
+
+````shell
+git restore --staged README.md
+git stage README.md
+````
+
+#### 三、远程
+
+````shell
+git remote -v
 ````
 

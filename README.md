@@ -43,7 +43,9 @@ git log --stat
 #图形化显示
 git log --graph
 #查看日志格式　cn:commit name cd:commit date s:commit string 
-git log --pretty=format:"%cn %cd %s"
+git log  --graph --pretty=format:"%cn %cd %s"
+
+git config --global alias.mjlog 'log  --graph --pretty=format:"%cn %cd %s"'
 #查看提交信息中包含"日志内容"
 git log --grep　"日志内容"
 #查看代码修改中包含　"代码更新"
@@ -77,6 +79,13 @@ git stage README.md
 
 ````shell
 git remote -v
+git remote rename origin minjun
+````
+
+#### 四、取别名
+
+````shell
+git log  --graph --pretty=format:"%cn %cd %s"
 ````
 
 #### 四、冲突文件

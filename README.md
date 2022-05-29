@@ -111,6 +111,16 @@ git cherry-pick 1232123
 git push
 ````
 
+七、git main rebase 
+
+
+
+
+
+
+
+
+
 
 
 

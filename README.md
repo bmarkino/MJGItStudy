@@ -57,7 +57,7 @@ git log -S "代码更新"
 
 
 
-#### diff查看修改内容
+#### diff查看当前修改内容
 
 ````shell
 git diff

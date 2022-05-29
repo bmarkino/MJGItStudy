@@ -102,6 +102,15 @@ git checkout master
 git merge dev
 ````
 
+#### 六、cherry-pick
+
+````shell
+＃将dev上的commit_id 为1232123的提交合并到master上
+git checkout master
+git cherry-pick 1232123
+git push
+````
+
 
 
 
